@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        /* Check for web safe fonts */
+        /* The html default font size is 16px */
+        /* px : 1px = 1.96 inch (Absolute) */
+        /* rem : to the font size of the parent elements (html tag) (relative)*/
+        /* em : to the font size of the parent element(relative) */
+        /* Vw : to 1% of viewport width (relative) */
+        /* Vh : to 1% of viewport height (relative) */
+        /* % : to parent element (relative) */
+
+        body {
+            font-family: "roboto";
+            font-size: 16px;
+            line-height: 1.6rem;
+        }
+
+
+        #RBA p {
+            background-color: thistle;
+            padding: 10px;
+
+        } 
+
+        #RBA p span {
+            font-weight: bold;
+            color:whitesmoke;
+            background-color: darkseagreen;
+        }
+
+        #software p span {
+            font-size: 20px;
+            color:tomato;
+            font-weight: bold;
+            background-color: skyblue;
+
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    <div id="RBA">
+        <h1>Welcome to RBA</h1>
+        <p>Lorem ipsum dolor <span>sit amet</span>, consectetur adipisicing elit. Nostrum ut, 
+            beatae aliquid velit dolore voluptatem quam amet fugit blanditiis architecto.</p>
+
+    </div>
+
+    <div id="software">
+        <h2>Software engineering </h2>
+        <p>Lorem ipsum dolor sit, <span>amet consectetur adipisic</span>
+            facere doloribus officiis omnis quasi explicabo dicta labore eius velit.</p>
+    </div>
+
+
+</body>
+</html>

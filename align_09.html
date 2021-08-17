@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.4em;
+            background-color: lightgray;
+        }
+
+        /* How to center your content (container) on the page */
+        /* step 1: wrap the content in a div ( use clas or id) */
+        /* step 2: add width and set the margin to auto */
+
+        /* Note: margin auto set the same amount to the both sides and push the content
+        in the middle */
+
+        .wrap{
+            /* if you used width, it wouldnt be responsive on mobile */
+            max-width: 900px;
+            margin: 50px auto;
+        }
+
+        .card {
+            background-color: wheat;
+            border: darkslateblue 2px solid;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 15px;
+
+        }
+
+        .card h2{
+            text-align: canter;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+
+        <div id="home" class="card">
+        <h2> Tech is easy</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+             Ipsam nemo perspiciatis, distinctio voluptas iste odit.</p>
+             <button>Read More...</button>
+        </div>
+
+        <div id="about" class=" card">
+            <h2><a href="">Redbeat Academy</a> </h2>
+            <p>Lorem ipsum dolor sit amet consectetur, 
+                adipisicing elit. Aperiam, eligendi!</p>
+        </div>
+
+        <div id="contact" class="card">
+            <h2>Software Engineering</h2>
+            <p>Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit. Molestiae, cupiditate!</p>
+
+        </div>
+    </div>
+</body>
+</html>

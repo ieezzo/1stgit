@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selectors</title>
+
+    <style>
+        /* Naming convetion is important (meaningful names) */
+        /* Use . to style with classes */
+        /* use # to style with ids */
+
+        /* styling with elements */
+
+        body {
+            background-color: lightgray;
+        }
+
+        /* Styling with class */
+        .primary {
+            color: blueviolet;
+        }
+
+        /* Styling with ids */
+        #main {
+            background-color: darkolivegreen;
+        }
+
+        #topic {
+            background-color: darksalmon;
+        }
+
+        /* Multiple elements */
+        #topic , #main {
+
+            border: darkred 3px solid;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+
+        /* Nested elements */
+        #main p {
+            font-weight: bold;
+        }
+
+        
+
+
+
+    </style>
+</head>
+<body>
+
+    <div id= "main">  
+
+        <h2 class="primary">Tech is easy</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, dolore!</p>
+    </div>
+
+    <div id="topic">
+    <h2>Software Engineering</h2>
+    <p>Lorem ipsum dolor sit amet 
+        consectetur adipisicing elit. Pariatur, velit?</p>
+    </div>
+</body>
+</html>
